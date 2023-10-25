@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0, minimum-scale=0.5, maximum-scale=3.0, user-scalable=yes" />
+    <style type="text/css">
+
+        img[alt|='big'] {
+            display: block;
+            max-width: 100%;
+        }
+
+        @media (min-width: 780px) {
+            div {
+                margin: 0 auto;
+                width: 750px;
+                overflow-wrap: break-word;
+                word-break: break-word;
+            }
+        }
+
+        @media (max-width: 779px) {
+            div {
+                overflow-wrap: break-word;
+                word-break: break-word;
+            }
+        }
+
+        p {
+            text-align: left;
+            font-size: 18px;
+            line-height: 25px;
+            margin-bottom: 20px;
+        }
+    </style>
+    <title>{{ page.title }}</title>
+</head>
+
+<body>
+    <div>
+
+        {{ content }}
+
+    </div>
+</body>
+
+</html>
