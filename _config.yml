@@ -8,6 +8,5 @@ defaults:
   -
     scope:
       path: "docs"
-      type: "posts"
     values:
       category: "docs"
