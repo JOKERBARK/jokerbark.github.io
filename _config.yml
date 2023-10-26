@@ -3,8 +3,3 @@ description: ""
 layout: default
 markdown: GFM 
 show_excerpts: false
-
-collections:
-  docs:
-    outout: true
-    permalink: /docs/:path/
