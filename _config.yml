@@ -2,4 +2,12 @@ title: ""
 description: ""
 layout: default
 markdown: GFM 
+permalink: none
 show_excerpts: false
+defaults:
+  -
+    scope:
+      path: "docs"
+      type: "posts"
+    values:
+      category: "docs"
